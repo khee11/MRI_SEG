@@ -1,0 +1,6 @@
+outs:
+- md5: 4ce29acdd1321664781bbd0e319d0bab.dir
+  size: 65654310571
+  nfiles: 115010
+  hash: md5
+  path: data

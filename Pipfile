@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pipenv = "*"
+install = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+pandas = "*"
+numpy = "*"
+monai = "*"
+scikit-learn = "*"
+scikit-image = "*"
+torchio = "*"
+pydicom = "*"
+ipykernel = "*"
+matplotlib = "*"
+dvc = "*"
+dicom2nifti = "*"
+wandb = "*"
+ipyvolume = "*"
+ipython-genutils = "*"
+itkwidgets = "*"
+tensorboard-plugin-3d = "*"
+fslpy = "*"
+antspyx = "*"
+einops = "*"
+torchmetrics = "*"
+medcam = "*"
+torchsummary = "*"
+torch-lr-finder = "*"
+pipfile = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

@@ -1,0 +1,49 @@
+# config-defaults.yaml
+---
+#dataset settings
+input_size:
+  desc: The size of the input image, e.g. 128, 256, 512
+  value: 
+    - 128
+    - 128
+    - 128
+
+do_augmentation:
+  desc: Whether to do data augmentation
+  value: True
+
+cache_num:
+  desc: Monai SmartCacheDataset cache number
+  value: 16
+
+# training settings
+epochs:
+  desc: Number of epochs to train over
+  value: 1000
+
+weight_decay:
+  desc: Weight decay
+  value: 0.001
+
+callbacks:
+  desc: Callbacks to use
+  value: 
+    - earlystopping
+
+earlystopping_patience:
+  value: 30
+earlystopping_verbose:
+  value: False
+earlystopping_delta:
+  value: 0
+
+#validation settings
+metrics:
+  desc: Metrics to use for validation
+  value: None
+
+
+
+#evaluation settings
+
+...
